@@ -1,9 +1,9 @@
-package com.zaxsis.HelloWorld;
+package com.zaxsis.PhoneGap;
 
 import com.phonegap.*;
 import android.os.Bundle;
 
-public class HelloWorldActivity extends DroidGap {
+public class PhoneGapActivity extends DroidGap {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -2413,9 +2413,9 @@ $.mobile.transitionFallbacks = {};
 								absStack.pop();
 							}
 							break;
-					}
-					if (d != "." && d != "..") {
-						absStack.push( d );
+						default:
+							absStack.push( d );
+							break;
 					}
 				}
 				return "/" + absStack.join( "/" );
